@@ -9,5 +9,16 @@
 .logo {
     width: 60px;
     height: 60px;
-    background-color: black;
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.logo img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
 }

@@ -37,7 +37,7 @@ function About() {
               <img src={aboutImage2} alt="about2" />
             </div>
             <div className="description-container">
-              <h2>Our Mission</h2>
+              <h2>My Mission</h2>
               <p>
                 In this project, I replaced the key component—the hose— with stainless steel to enhance durability and ensure it can be reused or recycled after its lifespan.
                 This not only minimizes the environmental impact but also strengthens the overall safety of the product.

@@ -19,7 +19,7 @@ function App() {
       case 'About':
         return <About />;
       default:
-        return <div>메뉴를 선택해주세요.</div>;
+        return <div>Please select a menu.</div>;
     }
   };
 

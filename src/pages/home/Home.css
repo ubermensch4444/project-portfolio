@@ -1,0 +1,149 @@
+/* 전체 컨테이너 */
+.home-container {
+  padding: 0 10%;
+}
+
+/* 헤더 섹션 */
+.home-header-section {
+  margin-bottom: 120px; /* 간격 줄임 */
+  text-align: center;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-header-section h1 {
+  font-size: 2.2rem; /* 폰트 크기 약간 줄임 */
+  margin-bottom: 15px;
+}
+
+.home-header-section p {
+  font-size: 1.1rem; /* 폰트 크기 약간 키움 */
+  line-height: 1.5;
+  color: var(--secondary-font-color);
+}
+
+/* 섹션 */
+.home-section {
+  margin-bottom: 120px; /* 간격 줄임 */
+}
+
+/* 콘텐츠 래퍼 */
+.home-content-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.home-content-wrapper.reverse {
+  flex-direction: row-reverse;
+}
+
+/* 이미지 컨테이너 */
+.home-image-container {
+  flex: 1;
+}
+
+.home-image-container img {
+  width: 100%;
+  height: auto;
+}
+
+/* 설명 컨테이너 */
+.home-description-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.home-description-container h2 {
+  font-size: 1.5rem; /* 폰트 크기 키움 */
+  margin-bottom: 15px;
+}
+
+.home-description-container .home-summary {
+  font-size: 1.1rem;
+  line-height: 1.4;
+  margin: 15px 0;
+  padding: 12px 0;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  width: 100%;
+}
+
+.home-description-container p:not(.home-summary) {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-top: 15px;
+  text-align: center;
+  max-width: 550px; /* 최대 너비 약간 줄임 */
+}
+
+/* 텍스트 스타일 */
+.home-container h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.home-container p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+/* 갤러리 이미지 */
+.home-gallery-images {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.home-gallery-images img {
+  width: calc(33.33% - 14px);
+  height: auto;
+  object-fit: cover;
+}
+
+/* 반응형 스타일 */
+@media (max-width: 768px) {
+  .home-header-section,
+  .home-section {
+    margin-bottom: 80px;
+  }
+
+  .home-header-section h1 {
+    font-size: 1.8rem;
+  }
+
+  .home-description-container h2 {
+    font-size: 1.3rem;
+  }
+
+  .home-description-container .home-summary {
+    font-size: 1rem;
+  }
+
+  .home-content-wrapper, .home-content-wrapper.reverse {
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .home-image-container, .home-description-container {
+    width: 100%;
+  }
+
+  .home-gallery-images {
+    flex-direction: column;
+  }
+
+  .home-gallery-images img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}

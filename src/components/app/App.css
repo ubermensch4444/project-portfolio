@@ -1,0 +1,26 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative;
+  overflow-x: hidden;
+}
+
+main {
+  flex: 1;
+  position: relative;
+  z-index: 1;
+}
+
+.background-text {
+  position: absolute;
+  top: 160px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20vw;
+  color: rgba(0, 0, 0, 0.05);
+  white-space: nowrap;
+  pointer-events: none;
+  z-index: 0;
+  font-family: 'BookkMyungjo-Bd', serif;
+}

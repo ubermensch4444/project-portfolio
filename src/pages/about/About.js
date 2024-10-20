@@ -6,6 +6,12 @@ import aboutImage2 from '../../assets/images/about/about2.jpeg';
 import aboutImage3 from '../../assets/images/about/about3.png';
 import aboutImage4 from '../../assets/images/about/about4.jpeg';
 import aboutImage5 from '../../assets/images/about/about5.jpeg';
+import aboutImage6 from '../../assets/images/about/about6.jpg';
+import aboutImage7 from '../../assets/images/about/about7.png';
+import aboutImage8 from '../../assets/images/about/about8.png';
+import aboutImage9 from '../../assets/images/about/about9.png';
+import aboutImage10 from '../../assets/images/about/about10.png';
+import aboutImage11 from '../../assets/images/about/about11.png';
 
 function About() {
   return (
@@ -19,11 +25,11 @@ function About() {
             <div className="description-container">
               <h2>A Student Developer with a Passion for Eco-friendly Innovation</h2>
               <p>
-                I am a student deeply interested in technologies that consider both safety and environmental sustainability.
-                With the increasing legal requirements for the installation of fire extinguishers in vehicles,
+                I am a student deeply interested in technologies that prioritize both safety and environmental sustainability.
+                Due to the increasing legal requirements for installing fire extinguishers in vehicles,
                 I began this project to solve the environmental issues caused by the rising number of extinguishers in use.
                 While most manufacturers use plastic components,
-                I aimed to develop a product that is recyclable by switching to stainless steel.
+                I aimed to develop a recyclable product by switching to stainless steel.
               </p>
             </div>
           </div>
@@ -62,6 +68,16 @@ function About() {
             <img src={aboutImage3} alt="about3" />
             <img src={aboutImage4} alt="about4" />
             <img src={aboutImage5} alt="about5" />
+          </div>
+          <div className="bottom-images">
+            <img src={aboutImage6} alt="about6" />
+            <img src={aboutImage7} alt="about7" />
+            <img src={aboutImage8} alt="about8" />
+          </div>
+          <div className="bottom-images">
+            <img src={aboutImage9} alt="about9" />
+            <img src={aboutImage10} alt="about10" />
+            <img src={aboutImage11} alt="about11" />
           </div>
         </FadeInSection>
       </div>

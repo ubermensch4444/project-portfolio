@@ -29,7 +29,7 @@ function Home() {
               <h2>Project Background</h2>
               <p className="home-summary">The Need for Environmental Protection and the Issue of Fire Extinguisher Disposal</p>
               <p>
-                With the mandatory installation of fire extinguishers in vehicles, the demand for fire extinguishers is on the rise.
+                With the mandatory installation of fire extinguishers in vehicles, the demand for them is on the rise.
                 However, most fire extinguishers are made with plastic components,
                 which are difficult to recycle once they reach the end of their lifespan, resulting in significant environmental impact.
                 To address this issue, I focused on designing a more eco-friendly fire extinguisher.
@@ -49,8 +49,8 @@ function Home() {
               <h2>Eco-friendly Fire Extinguisher Design</h2>
               <p className="home-summary">Designing with Recyclable Stainless Steel Hoses</p>
               <p>
-                Instead of the traditional plastic hoses, I redesigned the key components of the fire extinguisher using flexible and durable stainless steel hoses.
-                This ensures that even after a 10-year lifespan, the materials can be reused or recycled, significantly reducing the environmental impact.
+                Instead of traditional plastic hoses, I redesigned the key components of the fire extinguisher using flexible and durable stainless steel hoses.
+                This ensures that even after a 10-year lifespan, the materials can be reused or recycled, significantly reducing environmental impact.
               </p>
             </div>
           </div>
@@ -68,7 +68,7 @@ function Home() {
               <p className="home-summary">Maintaining Fire Extinguisher Performance While Achieving Environmental Benefits</p>
               <p>
                 The stainless steel hoses are designed to maintain strength and flexibility while also being fully recyclable.
-                In addition, they are more durable than plastic hoses and meet all fire extinguisher performance standards.
+                Additionally, they are more durable than plastic hoses and meet all fire extinguisher performance standards.
                 This technical innovation allows us to achieve both safety and environmental sustainability.
               </p>
             </div>

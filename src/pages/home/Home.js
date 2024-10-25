@@ -8,6 +8,9 @@ import home4 from '../../assets/images/home/home4.jpg';
 import home5 from '../../assets/images/home/home5.png';
 import home6 from '../../assets/images/home/home6.png';
 import home7 from '../../assets/images/home/home7.jpeg';
+import home8 from '../../assets/images/home/home8.jpeg';
+import home9 from '../../assets/images/home/home9.jpeg';
+import home10 from '../../assets/images/home/home10.jpeg';
 
 function Home() {
   return (
@@ -98,7 +101,12 @@ function Home() {
         <div className="home-gallery-images">
           <img src={home5} alt="document capture1" />
           <img src={home6} alt="document capture2" />
-          <img src={home7} alt="document capture3" />
+          <img src={home8} alt="document capture3" />
+        </div>
+        <div className="home-gallery-images">
+          <img src={home7} alt="product capture1" />
+          <img src={home9} alt="product capture2" />
+          <img src={home10} alt="product capture3" />
         </div>
       </FadeInSection>
     </div>
